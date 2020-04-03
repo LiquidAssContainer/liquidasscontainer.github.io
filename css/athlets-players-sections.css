@@ -86,7 +86,7 @@
   }
 }
 
-@media (max-resolution: 191dpi) and (max-width: 640px) {
+@media (max-resolution: 191dpi), (-webkit-max-device-pixel-ratio: 1) {
   .athlets-section::before {
     background-image: url("../images/footballer_192.png");
   }
@@ -96,7 +96,7 @@
   }
 }
 
-@media (min-resolution: 192dpi) and (max-width: 640px) {
+@media (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 1.5) {
   .athlets-section::before {
     background-image: url("../images/footballer_192_x2.png");
   }
