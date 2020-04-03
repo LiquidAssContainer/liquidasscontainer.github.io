@@ -1,0 +1,249 @@
+@media (max-width: 640px) {
+  .main-header {
+    background-image: url("../images/football_767.jpg");
+  }
+
+  .main-header-container,
+  .footer-container {
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 6.25%;
+    padding-right: 6.25%;
+  }
+
+  .logo-text-wrapper {
+    width: 133px;
+    height: 36px;
+  }
+
+  .main-title {
+    margin-top: 45%;
+    margin-bottom: 39%;
+    font-size: 8.75vw;
+  }
+
+  .app-links {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app-link {
+    width: 100%;
+    max-width: 280px;
+    height: 35px;
+    padding-left: 83px;
+  }
+
+  .app-link + .app-link {
+    margin-top: 14px;
+  }
+
+  .app-icon {
+    margin-right: 9px;
+  }
+
+  .app-store-icon {
+    position: relative;
+    bottom: 3px;
+
+    width: 20px;
+    margin-right: 9px;
+  }
+
+  .google-play-icon {
+    width: 22px;
+    margin-right: 7px;
+  }
+
+  .app-link-text {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  .main-header {
+    background-image: url("../images/football_1280.jpg");
+  }
+
+  .main-header-container {
+    padding-top: 39px;
+    padding-bottom: 90px;
+  }
+
+  .main-title {
+    box-sizing: border-box;
+    margin-bottom: 39%;
+    margin-top: 22%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    font-size: 64px;
+    line-height: 1.2;
+  }
+
+  .logo-text-wrapper {
+    width: 205px;
+    height: 56px;
+  }
+
+  .app-links {
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 641px) {
+  .app-link {
+    width: 311px;
+    height: 77px;
+  }
+
+  .app-store-icon {
+    position: relative;
+    bottom: 3px;
+
+    width: 50px;
+    margin-left: 34px;
+    margin-right: 21px;
+  }
+
+  .google-play-icon {
+    width: 45px;
+    margin-left: 55px;
+    margin-right: 26px;
+  }
+
+  .app-link-text {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1920px) {
+  .main-title {
+    margin-bottom: 11%;
+    margin-top: 15%;
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+
+    font-size: 4.7vw;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 961px) {
+  .main-header {
+    background-image: url("../images/football_1920.jpg");
+  }
+
+  .main-header-container {
+    padding-top: 45px;
+    padding-bottom: 110px;
+  }
+
+  .logo-text-wrapper {
+    width: 191px;
+    height: 52px;
+  }
+
+  .main-title {
+    margin-bottom: 11%;
+    margin-top: 15%;
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+
+    line-height: 1;
+  }
+
+  .app-link {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .app-links {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1921px) {
+  .main-title {
+    margin-bottom: 11%;
+    margin-top: 15%;
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+
+    font-size: 90px;
+  }
+}
+
+.main-header,
+.footer {
+  position: relative;
+  background-position: top center;
+  background-size: cover;
+}
+
+.main-header::before,
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  opacity: .9;
+  background-color: #0a0e34;
+}
+
+.main-header-container,
+.footer-container {
+  position: relative;
+  z-index: 1;
+}
+
+.logo-text-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-text {
+  fill: #fff;
+}
+
+.main-title {
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.main-title-second-line {
+  display: block;
+  text-align: right;
+}
+
+.app-links {
+  display: flex;
+}
+
+.app-link {
+  display: flex;
+  align-items: center;
+
+  box-sizing: border-box;
+  border-radius: 38px;
+  background-color: #5e42b0;
+}
+
+.app-icon {
+  display: block;
+  fill: #fff;
+}
+
+.app-link-text {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.app-name {
+  font-weight: 700;
+}
