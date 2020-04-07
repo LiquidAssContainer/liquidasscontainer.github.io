@@ -191,7 +191,10 @@
 
 .number-wrapper {
   position: absolute;
+
   display: flex;
+  justify-content: center;
+  align-items: center;
 
   box-sizing: border-box;
   background-color: #5e42b0;
@@ -203,8 +206,6 @@
 
 .number {
   position: relative;
-  margin: auto;
-
   font-weight: 700;
   color: #f5f6f7;
 }
