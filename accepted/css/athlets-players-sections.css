@@ -1,0 +1,338 @@
+@media (max-width: 640px) {
+  .athlets-section,
+  .players-section {
+    padding-top: 17px;
+  }
+
+  .athlets-section::before,
+  .players-section::before {
+    top: 80px;
+    left: 0;
+    right: 0;
+    background-position: center top;
+  }
+
+  .athlets-section::before {
+    height: 281px;
+    background-size: 192px 281px;
+  }
+
+  .players-section::before {
+    height: 248px;
+    background-size: 302px 248px;
+  }
+
+  .benefits-title {
+    font-size: 50px;
+    margin-bottom: 240px;
+  }
+
+  .athlets-section .benefits-title {
+    padding-left: 6.25%;
+    padding-right: 6.25%;
+  }
+
+  .players-section .benefits-title {
+    padding-left: 6.25%;
+    padding-right: 6.25%;
+  }
+
+  .benefits-article:nth-of-type(1) {
+    background-color: #fafafa;
+  }
+
+  .benefits-article-container {
+    padding-top: 57px;
+    padding-bottom: 49px;
+  }
+
+  .benefits-article:first-of-type .benefits-article-container {
+    padding-top: 78px;
+  }
+
+  .athlets-section .benefits-article-container {
+    padding-left: 6.25%;
+    padding-right: 6.25%;
+  }
+
+  .benefits-article-header {
+    margin-bottom: 22px;
+  }
+
+  .benefits-article-title {
+    padding-top: 2px;
+    font-size: 23px;
+  }
+
+  .benefits-article-number {
+    margin-right: 11px;
+    font-size: 14px;
+  }
+
+  .benefits-article-number::after {
+    bottom: 2px;
+    width: 16px;
+    height: 4px;
+  }
+
+  .players-section .benefits-article-container {
+    padding-right: 6.25%;
+    padding-left: 6.25%;
+  }
+
+  .benefits-text-content {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+}
+
+@media (max-resolution: 191dpi), (-webkit-max-device-pixel-ratio: 1) {
+  .athlets-section::before {
+    background-image: url("../images/footballer_192.png");
+  }
+
+  .players-section::before {
+    background-image: url("../images/basketballer_302.png");
+  }
+}
+
+@media (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 1.5) {
+  .athlets-section::before {
+    background-image: url("../images/footballer_192_x2.png");
+  }
+
+  .players-section::before {
+    background-image: url("../images/basketballer_302_x2.png");
+  }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  .athlets-section,
+  .players-section {
+    padding-top: 73px;
+  }
+
+  .athlets-section::before {
+    top: 94px;
+    right: 56.5%;
+    width: 497px;
+    height: 908px;
+    background-image: url("../images/footballer_497.png");
+  }
+
+  .players-section::before {
+    top: 36px;
+    left: 55%;
+    right: 0;
+
+    width: 436px;
+    max-width: 45%;
+    height: 815px;
+    background-image: url("../images/basketballer_436.png");
+  }
+
+  .benefits-title {
+    font-size: 80px;
+    margin-bottom: 10px;
+    letter-spacing: 0.01em;
+  }
+
+  .athlets-section .benefits-title,
+  .athlets-section .benefits-article-container {
+    padding-left: 38%;
+    padding-right: 4.3%;
+  }
+
+  .players-section .benefits-title,
+  .players-section .benefits-article-container {
+    padding-left: 4.3%;
+    padding-right: 43%;
+  }
+
+  .benefits-article-container {
+    padding-top: 37px;
+    padding-bottom: 33px;
+  }
+
+  .benefits-article-number::after {
+    bottom: 3px;
+  }
+
+  .benefits-article-header {
+    margin-bottom: 24px;
+  }
+
+  .benefits-article-title {
+    font-size: 32px;
+  }
+
+  .benefits-text-content {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+}
+
+@media (min-width: 641px) {
+  .benefits-article-number::after {
+    width: 20px;
+    height: 5px;
+  }
+}
+
+@media (min-width: 961px) {
+  .athlets-section,
+  .players-section {
+    padding-top: 102px;
+  }
+
+  .athlets-section::before {
+    top: 27px;
+    right: 50%;
+
+    width: 100%;
+    height: 908px;
+    background-image: url("../images/footballer_566.png");
+    background-position: right center;
+  }
+
+  .players-section::before {
+    top: 23px;
+    left: 42%;
+
+    width: 58%;
+    height: 815px;
+    background-image: url("../images/basketballer_991.png");
+  }
+
+  .benefits-article-wrapper,
+  .benefits-title-wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  .benefits-article-container {
+    padding-top: 55px;
+    padding-bottom: 52px;
+  }
+
+  .benefits-article-header {
+    margin-bottom: 20px;
+  }
+
+  .benefits-article-title {
+    font-size: 36px;
+  }
+
+  .benefits-title,
+  .suggestions-title {
+    font-size: 80px;
+    margin-bottom: 42px;
+    letter-spacing: .01em;
+  }
+
+  .athlets-section .benefits-title,
+  .athlets-section .benefits-article-container {
+    padding-left: 52.5%;
+    padding-right: 9.5%;
+  }
+
+  .players-section .benefits-title,
+  .players-section .benefits-article-container {
+    padding-left: 9.5%;
+    padding-right: 52.5%;
+  }
+
+  .benefits-article-number {
+    font-size: 18px;
+  }
+
+  .benefits-article-number::after {
+    bottom: 6px;
+  }
+
+  .benefits-text-content {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+
+.athlets-section,
+.players-section {
+  position: relative;
+}
+
+.athlets-section::before,
+.players-section::before {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.benefits-title,
+.suggestions-title {
+  font-weight: 700;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+
+.benefits-article:nth-of-type(2) {
+  background-color: #f6f4fa;
+}
+
+.athlets-section .benefits-article:nth-of-type(3) {
+  background-color: #5e42b0;
+}
+
+.players-section .benefits-article:nth-of-type(3) {
+  background-color: #0a0e34;
+}
+
+.benefits-article-header {
+  display: flex;
+}
+
+.benefits-article-number {
+  position: relative;
+  margin-right: 11px;
+  font-weight: 700;
+  color: #000;
+}
+
+.athlets-section .benefits-article:nth-of-type(3) .benefits-article-number {
+  color: #0a0e34;
+}
+
+.players-section .benefits-article:nth-of-type(3) .benefits-article-number {
+  color: #9173e6;
+}
+
+.benefits-article-number::after {
+  content: "";
+  position: absolute;
+  background-color: #5e42b0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 2px;
+}
+
+.benefits-article:nth-of-type(3) .benefits-article-number::after {
+  background-color: #efefef;
+}
+
+.benefits-article-title {
+  font-weight: 700;
+  color: #c1c1c1;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.benefits-text-content {
+  color: #000;
+}
+
+.benefits-article:nth-of-type(3) .benefits-text-content {
+  color: #fff;
+}
